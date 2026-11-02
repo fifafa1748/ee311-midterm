@@ -362,6 +362,10 @@ footer{
 <p>สี่ข้อนี้ใช้ทักษะเดียวกันหมดคือ "ตั้งอินทิกรัลให้ถูกช่วง" ต่างกันแค่รูปคลื่นกับโหลด
 ตารางนี้คือคำตอบสุดท้าย — รายละเอียดวิธีทำอยู่ข้อถัด ๆ ไป</p>
 
+<div class="tip"><b>โหมดฝึก — ซ่อนคำตอบก่อน แล้วค่อยกดเปิดทีละช่อง</b>
+<p>กดปุ่ม <b>โหมดฝึก</b> ที่แถบเมนูด้านบน: ตัวเลขคำตอบกับสมการทุกบรรทัดจะถูกซ่อนไว้ ให้ลองคิดเองก่อน
+แล้วกดที่ช่องไหนก็ได้เพื่อเปิดเฉพาะช่องนั้น (กด <b>แสดงทั้งหมด</b> เมื่อจะตรวจทั้งหน้า) — โหมดนี้ทำงานในเบราว์เซอร์อย่างเดียว ไม่กระทบตอนพิมพ์เป็น PDF</p></div>
+
 <div class="kpi">
   <div><b>174.90 V</b><small>ข้อ 3 · <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.2222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">d</span><span class="mord mathnormal mtight">c</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> (α=40°)</small></div>
   <div><b>2,262 W</b><small>ข้อ 3 · กำลังโหลด</small></div>
@@ -5292,7 +5296,8 @@ s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
 c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
 M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.1328em;"><span></span></span></span></span></span><span class="mord mathnormal" style="margin-right:0.1076em;">f</span><span class="mord mathnormal" style="margin-right:0.0077em;">R</span><span class="mord mathnormal" style="margin-right:0.0715em;">C</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9917em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> ให้ 35.9 V
 แต่คำตอบที่จำลองสมการจริงได้คือ <b>46.39 V</b> — สูตรแรก<b>เกินจริง 24%</b>
-เพราะมันสมมติว่าคายประจุยาวทั้งครึ่งคาบเป็นเส้นตรง และไม่คิดว่าตัวเก็บประจุถูกชาร์จใหม่ก่อนถึงจุดต่ำสุด</p></div>
+เพราะมันสมมติว่าคายประจุยาวทั้งครึ่งคาบเป็นเส้นตรง และไม่คิดว่าตัวเก็บประจุถูกชาร์จใหม่ก่อนถึงจุดต่ำสุด
+ส่วนสูตรของโจทย์เองก็<b>ต่ำไป 23%</b> — ในห้องสอบให้ตอบตามสูตรโจทย์แล้วเติมหมายเหตุว่าเป็นค่าประมาณ</p></div>
 
 <h3>ขั้นที่ 2 — แก้จริงด้วยสมการอนุพันธ์</h3>
 <p>สองช่วงสลับกันไป:</p>
@@ -39358,8 +39363,9 @@ L 90.414766 219.1325
 
 <div class="note"><b>ตัวเลขจากกราฟในโจทย์ข้อ 5 ก็ตรวจแล้ว</b>
 <p>พีคที่ α=90° ของกราฟ <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">6</span></span></span></span> อ่านได้ 0.34 — ร็อกซี่คำนวณฟูเรียร์ของรูปคลื่นจริงได้ 0.3429
-ซึ่งตรงกับค่าเชิงวิเคราะห์ <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">12/35</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">0.3429</span></span></span></span> พอดี (n=12: 0.1678 เทียบ <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">24/143</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">0.1678</span></span></span></span>)
-แปลว่ากราฟที่อาจารย์ให้มาใช้ normalization <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.2222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.2222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> จริง และใช้แทนกันได้</p></div>
+ซึ่งตรงกับค่าเชิงวิเคราะห์ <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">12/35</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">0.3429</span></span></span></span> พอดี (n=12: 0.1678 เทียบ <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">24/143</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">0.1678</span></span></span></span>)</p>
+<p><b>ข้อควรระวังเรื่องแกนตั้ง:</b> ตัวหารของกราฟไม่ใช่ <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.2222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> แต่เป็น <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.2222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">d</span><span class="mord mathnormal mtight">c</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> ที่ α=0 = 513.18 V
+ถ้าเอา <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.2222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> (310.3 V) เป็นตัวหารจะได้ 0.566 ซึ่งอ่านสูงกว่าความจริงเกือบสองเท่า</p></div>
 </section>
 
 <section id="s7">
@@ -39397,6 +39403,74 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
 <div class="ans"><b>เช็กลิสต์ก่อนส่งข้อสอบ</b>
 <p>□ เปลี่ยน α เป็น rad แล้วหรือยัง · □ อินทิเกรตครบคาบหรือแค่ช่วงนำ · □ กำลังใช้ rms หรือ avg · □ หน่วย V คือ rms/peak/line-line · □ ตรวจคำตอบด้วยเหตุผล (V_dc ต้อง ≤ V_peak, pf ≤ 1, I_rms ≥ I_dc)</p></div>
 </section>
+
+<style>
+.prnav{display:inline-flex;gap:8px;margin-left:auto;align-items:center}
+.prnav button{border:1px solid #cbd5e1;background:#fff;color:#1e3a8a;border-radius:999px;
+  padding:7px 15px;cursor:pointer;font:600 13.5px Sarabun,"Segoe UI",system-ui,sans-serif;
+  box-shadow:0 2px 6px rgba(15,23,42,.07)}
+.prnav button.on{background:#1e3a8a;color:#fff;border-color:#1e3a8a}
+.prbar{position:fixed;right:16px;bottom:16px;z-index:99;display:flex;gap:8px}
+.prbar button{border:0;border-radius:999px;padding:10px 17px;cursor:pointer;
+  font:600 14.5px Sarabun,"Segoe UI",system-ui,sans-serif;
+  background:#1e3a8a;color:#fff;box-shadow:0 8px 22px rgba(30,58,138,.3)}
+body.practice .ansbox:not(.shown){cursor:pointer;border-radius:6px;outline:1px dashed #cbd5e1;outline-offset:3px}
+body.practice td.num.ansbox:not(.shown),
+body.practice .kpi b.ansbox:not(.shown){position:relative;color:transparent;text-shadow:none}
+body.practice td.num.ansbox:not(.shown)::after,
+body.practice .kpi b.ansbox:not(.shown)::after{content:"•••";position:absolute;inset:0;
+  display:flex;align-items:center;justify-content:center;color:#64748b;letter-spacing:3px;font-weight:700;text-shadow:none}
+body.practice .katex-display.ansbox:not(.shown){filter:blur(5px);opacity:.8}
+body.practice .ansbox.shown{outline-color:#15803d}
+@media print{.prbar,.prnav{display:none}
+  body.practice .ansbox:not(.shown){color:inherit;text-shadow:none;filter:none;opacity:1;outline:none}
+  body.practice td.num.ansbox:not(.shown)::after,
+  body.practice .kpi b.ansbox:not(.shown)::after{content:none}}
+</style>
+<script>
+(function(){
+  var t = document.createElement('button');
+  t.type = 'button'; t.textContent = 'โหมดฝึก';
+  var s = document.createElement('button');
+  s.type = 'button'; s.textContent = 'แสดงทั้งหมด'; s.style.display = 'none';
+  var host = document.querySelector('nav');
+  if (host) {
+    var wrap = document.createElement('span');
+    wrap.className = 'prnav';
+    wrap.appendChild(t); wrap.appendChild(s); host.appendChild(wrap);
+  } else {
+    var bar = document.createElement('div');
+    bar.className = 'prbar';
+    bar.appendChild(t); bar.appendChild(s); document.body.appendChild(bar);
+  }
+  var boxes = document.querySelectorAll('td.num, .kpi b, .katex-display');
+  for (var i = 0; i < boxes.length; i++) boxes[i].classList.add('ansbox');
+  function on(){ return document.body.classList.contains('practice'); }
+  t.onclick = function(ev){
+    ev.stopPropagation();
+    document.body.classList.toggle('practice');
+    var p = on();
+    t.textContent = p ? 'ปิดโหมดฝึก' : 'โหมดฝึก';
+    t.classList.toggle('on', p);
+    s.style.display = p ? '' : 'none';
+    if (!p) {
+      var sh = document.querySelectorAll('.ansbox.shown');
+      for (var k = 0; k < sh.length; k++) sh[k].classList.remove('shown');
+    }
+  };
+  s.onclick = function(ev){
+    ev.stopPropagation();
+    var all = document.querySelectorAll('.ansbox');
+    for (var k = 0; k < all.length; k++) all[k].classList.add('shown');
+  };
+  document.addEventListener('click', function(ev){
+    if (!on()) return;
+    var el = ev.target;
+    while (el && el !== document.body && !(el.classList && el.classList.contains('ansbox'))) el = el.parentElement;
+    if (el && el.classList && el.classList.contains('ansbox')) el.classList.add('shown');
+  });
+})();
+</script>
 </main>
 <footer class="noprint">
 <p>สร้างด้วย <code>report-kit/build_report.mjs</code> · 3 พฤศจิกายน 2569 · ไฟล์เดียว ไม่ต้องต่อเน็ต</p>
